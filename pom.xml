@@ -134,4 +134,13 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+	  <distributionManagement>
+	    <repository>
+		<id>HBCRUD</id>
+		<name>HBCRUD</name>
+		<url>http://localhost:8569/HBCRUD/</url>
+	    </repository>
+	</distributionManagement>
+	
 </project>
