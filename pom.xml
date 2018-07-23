@@ -139,7 +139,7 @@
 	    <repository>
 		<id>com.tatva</id>
 		<name>HBCRUD</name>
-		<url>C:\Users\pca48\.m2\repository\HBCRUD\HBCRUD\0.0.1-SNAPSHOT\</url>
+		<url>C:\Users\pca48\.m2\repository\com\tatva\HBCRUD</url>
 	    </repository>
 	</distributionManagement>
 	
