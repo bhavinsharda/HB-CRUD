@@ -139,7 +139,7 @@
 	    <repository>
 		<id>HBCRUD</id>
 		<name>HBCRUD</name>
-		<url>http://localhost:8569/HBCRUD/</url>
+		<url>C:\Users\pca48\.m2\repository\HBCRUD\HBCRUD\0.0.1-SNAPSHOT\</url>
 	    </repository>
 	</distributionManagement>
 	
