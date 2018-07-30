@@ -1,25 +1,12 @@
 pipeline {
-	agent any
-	
-	stages {
-		stage ('Compile Stage') {
-	
-			steps{
-			 	bat 'mvn compile'
-			
-		    }
-		}
-		stage ('Testing Stage') {
-	
-			steps{ 
-				bat 'mvn test'
-		    }
-		}
-		stage ('Deployment Stage') {
-	
-			steps{
-				bat 'mvn deploy'
-		    }
-		}		
-           }
-       }
+    agent { any }
+    stages {
+        stage('build') {
+            steps {
+		withMaven(maven : 'maven:3.1.1') {
+				bat 'mvn --version'
+			}
+            }
+        }
+    }
+}
