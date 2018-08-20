@@ -128,7 +128,7 @@
             <configuration>    
                 <outputDirectory>D:\NEWPC\softwar\apache-tomcat-8.0.53\webapps\</outputDirectory>
         	 <!-- <failOnMissingWebXml>false</failOnMissingWebXml> -->
-		 <webXml>src\main\webapp\WEB-INF\web.xml</webXml> 
+		 <webXml>WebContent\WEB-INF\web.xml</webXml> 
     		</configuration>
 	</plugin>        
      </plugins>	
