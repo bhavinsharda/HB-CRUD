@@ -127,7 +127,8 @@
             <artifactId>maven-war-plugin</artifactId>
             <configuration>    
                 <outputDirectory>D:\NEWPC\softwar\apache-tomcat-8.0.53\webapps\</outputDirectory>
-        	 <failOnMissingWebXml>false</failOnMissingWebXml>
+        	 <!-- <failOnMissingWebXml>false</failOnMissingWebXml> -->
+		 <webXml>src\main\webapp\WEB-INF\web.xml</webXml> 
     		</configuration>
 	</plugin>        
      </plugins>	
