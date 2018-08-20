@@ -129,15 +129,7 @@
 			<failOnMissingWebXml>false</failOnMissingWebXml>
 			</configuration>
 	</plugin>
-        <!-- <plugin>
-            <groupId>org.apache.maven.plugins</groupId> 
-            <artifactId>maven-war-plugin</artifactId>
-            <configuration>    
-                <outputDirectory>D:\NEWPC\softwar\apache-tomcat-8.0.53\webapps\</outputDirectory>
-        	 <!-- <failOnMissingWebXml>false</failOnMissingWebXml>
-		 <webXml>WebContent\WEB-INF\web.xml</webXml> 
-    		</configuration>
-	</plugin> -->
+       
      </plugins>	
   </build>
 </project>
