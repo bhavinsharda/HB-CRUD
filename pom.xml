@@ -126,7 +126,8 @@
 		<version>2.4</version>
 		    <configuration>
 		       <warSourceDirectory>WebContent</warSourceDirectory>
-			<failOnMissingWebXml>false</failOnMissingWebXml>
+			<outputDirectory>D:\NEWPC\softwar\apache-tomcat-8.0.53\webapps\</outputDirectory>
+			<webXml>WebContent\WEB-INF\web.xml</webXml> 
 			</configuration>
 	</plugin>
        
